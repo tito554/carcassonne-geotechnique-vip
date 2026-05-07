@@ -1,0 +1,52 @@
+# Geotechnique — Carcassonne
+
+> Geotechnical engineering services in Carcassonne, France.
+
+## Services
+- [Amelioration Sols](https://carcassonne.geotechnique.vip/amelioration-sols/)
+- [Ancrages](https://carcassonne.geotechnique.vip/ancrages/)
+- [Cbr Routier](https://carcassonne.geotechnique.vip/cbr-routier/)
+- [Chaussee Rigide](https://carcassonne.geotechnique.vip/chaussee-rigide/)
+- [Chaussee Souple](https://carcassonne.geotechnique.vip/chaussee-souple/)
+- [Colonnes Ballastees](https://carcassonne.geotechnique.vip/colonnes-ballastees/)
+- [Confidentialite](https://carcassonne.geotechnique.vip/confidentialite/)
+- [Densite Cone Sable](https://carcassonne.geotechnique.vip/densite-cone-sable/)
+- [Essai Cpt](https://carcassonne.geotechnique.vip/essai-cpt/)
+- [Essais Proctor](https://carcassonne.geotechnique.vip/essais-proctor/)
+- [Excavations](https://carcassonne.geotechnique.vip/excavations/)
+- [Excavations Profondes](https://carcassonne.geotechnique.vip/excavations-profondes/)
+- [Fondations](https://carcassonne.geotechnique.vip/fondations/)
+- [Geotechnique Routiere](https://carcassonne.geotechnique.vip/geotechnique-routiere/)
+- [Granulometrie](https://carcassonne.geotechnique.vip/granulometrie/)
+- [Injections](https://carcassonne.geotechnique.vip/injections/)
+- [Investigation](https://carcassonne.geotechnique.vip/investigation/)
+- [Isolation Sismique](https://carcassonne.geotechnique.vip/isolation-sismique/)
+- [Labo In Situ](https://carcassonne.geotechnique.vip/labo-in-situ/)
+- [Laboratoire](https://carcassonne.geotechnique.vip/laboratoire/)
+- [Limites Atterberg](https://carcassonne.geotechnique.vip/limites-atterberg/)
+- [Liquefaction](https://carcassonne.geotechnique.vip/liquefaction/)
+- [Masw](https://carcassonne.geotechnique.vip/masw/)
+- [Microzonage Sismique](https://carcassonne.geotechnique.vip/microzonage-sismique/)
+- [Murs Soutenement](https://carcassonne.geotechnique.vip/murs-soutenement/)
+- [Permeabilite In Situ](https://carcassonne.geotechnique.vip/permeabilite-in-situ/)
+- [Pieux](https://carcassonne.geotechnique.vip/pieux/)
+- [Puits Inspection](https://carcassonne.geotechnique.vip/puits-inspection/)
+- [Radiers](https://carcassonne.geotechnique.vip/radiers/)
+- [Refraction Sismique](https://carcassonne.geotechnique.vip/refraction-sismique/)
+- [Resistivite](https://carcassonne.geotechnique.vip/resistivite/)
+- [Semelles](https://carcassonne.geotechnique.vip/semelles/)
+- [Sismique](https://carcassonne.geotechnique.vip/sismique/)
+- [Sondages Spt](https://carcassonne.geotechnique.vip/sondages-spt/)
+- [Stabilite Talus](https://carcassonne.geotechnique.vip/stabilite-talus/)
+- [Surveillance Excavations](https://carcassonne.geotechnique.vip/surveillance-excavations/)
+- [Talus](https://carcassonne.geotechnique.vip/talus/)
+- [Triaxial](https://carcassonne.geotechnique.vip/triaxial/)
+- [Tunnels Sol Mou](https://carcassonne.geotechnique.vip/tunnels-sol-mou/)
+- [Vibrocompactage](https://carcassonne.geotechnique.vip/vibrocompactage/)
+
+## Contact
+- Website: https://carcassonne.geotechnique.vip/
+
+## About
+This site provides geotechnical engineering services in Carcassonne, France.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
