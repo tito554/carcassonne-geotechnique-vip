@@ -1,228 +1,276 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Excavations souterraines à Carcassonne – France</title>
-<meta name="description" content="À Carcassonne, les excavations souterraines exigent une maîtrise rigoureuse des contextes géologiques locaux, souvent marqués par des formations molassique">
-<link rel="canonical" href="https://carcassonne.geotechnique.vip/excavations/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Excavations souterraines à Carcassonne – France">
-<meta property="og:description" content="À Carcassonne, les excavations souterraines exigent une maîtrise rigoureuse des contextes géologiques locaux, souvent marqués par des formations molassique">
-<meta property="og:url" content="https://carcassonne.geotechnique.vip/excavations/">
-<meta property="og:site_name" content="Geotechnique">
-<meta property="og:image" content="https://carcassonne.geotechnique.vip/img/anclajes-4.webp">
-<meta property="og:locale" content="fr_FR">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Excavations souterraines à Carcassonne – France">
-<meta name="twitter:description" content="À Carcassonne, les excavations souterraines exigent une maîtrise rigoureuse des contextes géologiques locaux, souvent marqués par des formations molassique">
-<style>
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.servicio:hover { border-color: var(--primary); }
+<!DOCTYPE html><html lang="fr"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="icon" type="image/png" sizes="96x96" href="/favicon.png"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Excavations à Carcassonne – France</title><meta name="description" content="La catégorie Excavations regroupe l'ensemble des études, conceptions et suivis géotechniques nécessaires à la réalisation de"><link rel="canonical" href="https://carcassonne.geotechnique.vip/excavations/"><meta property="og:type" content="website"><meta property="og:title" content="Excavations à Carcassonne – France"><meta property="og:description" content="La catégorie Excavations regroupe l'ensemble des études, conceptions et suivis géotechniques nécessaires à la réalisation de"><meta property="og:url" content="https://carcassonne.geotechnique.vip/excavations/"><meta property="og:site_name" content="Geotechnique"><meta property="og:image" content="https://carcassonne.geotechnique.vip/img/tuneles-suelo-blando-1.webp"><meta property="og:locale" content="fr_FR"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Excavations à Carcassonne – France"><meta name="twitter:description" content="La catégorie Excavations regroupe l'ensemble des études, conceptions et suivis géotechniques nécessaires à la réalisation de fouilles et de creusements dan"><style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.container { padding: 1rem; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
+}
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+.sidebar .cat-sub {
+background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-.sidebar .cat-sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+summary::-webkit-details-marker { display: none; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.trabajos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+* { margin:0; padding:0; box-sizing:border-box; }
+a { color: var(--primary); text-decoration: none; }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.sidebar .cat-row {
+display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
 }
 .sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
 }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-details[open] summary::before { content: '− '; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
-.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
-.cta .whatsapp-btn:hover { background: #1eb853; }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
-    .container { padding: 1rem; }
-
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-    .content-area { flex-direction: column; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-.sidebar .cat-toggle {
-    background: none; border: 0; color: inherit; cursor: pointer;
-    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
-}
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.header-contact a:hover { color: white; }
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
-main p { margin-bottom: 1rem; color: #334155; }
-    .header-top { flex-direction: column; text-align: center; }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-:root {
-    --primary: #171717;
-    --accent: #404040;
-    --dark: #0A0A0A;
-    --bg: #FAFAF9;
-    --text: #171717;
-    --font-h: 'Oswald', 'Segoe UI', sans-serif;
-    --font-b: 'Roboto', 'Segoe UI', sans-serif;
-}
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-summary::-webkit-details-marker { display: none; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
-}
-tr:nth-child(even) { background: #f8fafc; }
-.sidebar .cat-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-}
-    main { padding: 1.5rem; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-main section { margin-bottom: 1.5rem; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
 summary:hover { background: rgba(0,0,0,0.02); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-.sidebar .cat-name:hover { color: #c9a961; }
-.sidebar .cat-sub[hidden] { display: none; }
-.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-.sidebar .cat-sub {
-    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
-}
 .cta .contacto-line a { color: white; text-decoration: underline; }
+main p { margin-bottom: 1rem; color: #334155; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+.sidebar .cat-sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.header-contact a:hover { color: white; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+:root {
+--primary: #171717;
+--accent: #404040;
+--dark: #0A0A0A;
+--bg: #FAFAF9;
+--text: #171717;
+--font-h: 'Oswald', 'Segoe UI', sans-serif;
+--font-b: 'Roboto', 'Segoe UI', sans-serif;
+}
+.sidebar .cat-name:hover { color: #c9a961; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+details[open] summary::before { content: '− '; }
+main section { margin-bottom: 1.5rem; }
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 /* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
 .sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+.servicio:hover { border-color: var(--primary); }
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.sidebar .cat-sub[hidden] { display: none; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.sidebar .cat-toggle {
+background: none; border: 0; color: inherit; cursor: pointer;
+padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
 footer a { color: rgba(255,255,255,0.85); }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+tr:nth-child(even) { background: #f8fafc; }
+.sidebar {
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*/.leaflet-container { z-index: 1 !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+z-index: 1100 !important;
+}
+.leaflet-control { z-index: 800 !important; }
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+position: sticky !important;
+top: 0 !important;
+z-index: 1010 !important;
+}
+header.hero, .hero { position: relative !important; }
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }</style><style>/*afx*/p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0F766E) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}</style><style>/*afx*/@media (max-width:1100px){
+.nav-item{font-size:.7rem !important}
+.navbar .nav{gap:.4rem !important}
+.cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+.logo-text .sub{font-size:.72rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.logo-text .main{font-size:.95rem !important}
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}</style><style>/*afx*/@media (min-width:901px){
+aside{position:relative}
+aside+main,aside~main,aside~div>main{margin-left:0}
+.content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+aside{width:100% !important;position:static !important;height:auto !important}
+.navbar{flex-wrap:wrap}
+}
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}</style><style>/*afx*/@media (max-width:900px){body{padding-top:90px}}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+body{padding-top:60px}
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}</style><style>/*afx*/aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-sub-wrap a:hover{background:rgba(127,127,127,.08) !important}
+/* Adaptativo: hover preserva color heredado (white en dark sidebar, dark en light) */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+/* Bg sutil que funciona en cualquier fondo */
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}</style><style>/*afx*/.cat-arrow{display:inline-block}
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}</style><style>/*afx*/
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+</style><style>/*afx*//* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+body>*{max-width:100vw}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.navbar .nav{gap:.55rem !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}</style><style>/*afx*/.cat-name {
+flex: 1 1 auto !important;
+min-width: 0 !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+white-space: normal !important;
+order: 1 !important;
+}
+/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
+.cat-item, details {
+display: block !important;
+position: relative !important;
+}
+/* cat-row interno: SI flex para alinear name + toggle */
+.cat-row {
+display: flex !important;
+flex-wrap: nowrap !important;
+align-items: center !important;
+justify-content: space-between !important;
+width: 100% !important;
+}
+/* Sub-item links */
+.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
+display: block !important;
+width: 100% !important;
+font-size: .82rem !important;
+line-height: 1.25 !important;
+padding: .35rem 1rem .35rem 1.8rem !important;
+white-space: normal !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+box-sizing: border-box !important;
+}
+/* cat-sub-wrap: full width abajo */
+.cat-sub-wrap, .cat-sub, .nav-cat-sub {
+flex-basis: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
+order: 3 !important;
+position: static !important;
+background: rgba(0,0,0,.15) !important;
+padding: .4rem 0 .8rem !important;
+}
+.cat-toggle, .cat-arrow {
+flex-shrink: 0 !important;
+order: 2 !important;
+}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://carcassonne.geotechnique.vip/excavations/", "url": "https://carcassonne.geotechnique.vip/excavations/", "name": "Excavations à Carcassonne – France", "inLanguage": "fr", "description": "La catégorie Excavations regroupe l'ensemble des études, conceptions et suivis géotechniques nécessaires à la réalisation de fouilles et de creusements dan", "isPartOf": {"@type": "WebSite", "@id": "https://carcassonne.geotechnique.vip/#website-4428", "url": "https://carcassonne.geotechnique.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://carcassonne.geotechnique.vip/"}, {"@type": "ListItem", "position": 2, "name": "Excavations", "item": "https://carcassonne.geotechnique.vip/excavations/"}]}, {"@type": "ItemList", "name": "Excavations", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://carcassonne.geotechnique.vip/tunnels-sol-mou/", "name": "Analyse géotechnique pour tunnels en sols mous"}, {"@type": "ListItem", "position": 2, "url": "https://carcassonne.geotechnique.vip/excavations-profondes/", "name": "Conception géotechnique des excavations profondes"}, {"@type": "ListItem", "position": 3, "url": "https://carcassonne.geotechnique.vip/surveillance-excavations/", "name": "Surveillance géotechnique des excavations"}]}]}</script><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><style>/*afx*//* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+.navbar .nav{gap:.55rem !important}
+body>*{max-width:100vw}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/tuneles-suelo-blando-1.webp" fetchpriority="high">
 
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-a { color: var(--primary); text-decoration: none; }</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"inLanguage":"fr","isPartOf":{"@type":"WebSite","@id":"https://carcassonne.geotechnique.vip/#website","url":"https://carcassonne.geotechnique.vip"},"@id":"https://carcassonne.geotechnique.vip/excavations/","url":"https://carcassonne.geotechnique.vip/excavations/","@type":"WebPage","name":"Excavations souterraines à Carcassonne – France","description":"À Carcassonne, les excavations souterraines exigent une maîtrise rigoureuse des contextes géologiques locaux, souvent marqués par des formations molassique"},{"@type":"BreadcrumbList","itemListElement":[{"name":"Home","position":1,"@type":"ListItem","item":"https://carcassonne.geotechnique.vip/"},{"name":"Excavations souterraines","position":2,"@type":"ListItem","item":"https://carcassonne.geotechnique.vip/excavations/"}]},{"@type":"ItemList","name":"Excavations souterraines","itemListElement":[{"name":"Analyse géotechnique pour tunnels en sols mous","position":1,"@type":"ListItem","url":"https://carcassonne.geotechnique.vip/tunnels-sol-mou/"},{"name":"Conception géotechnique des excavations profondes","position":2,"@type":"ListItem","url":"https://carcassonne.geotechnique.vip/excavations-profondes/"},{"name":"Surveillance géotechnique des excavations","position":3,"@type":"ListItem","url":"https://carcassonne.geotechnique.vip/surveillance-excavations/"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;align-items:center;gap:10px;"><div style="width:44px;height:44px;border-radius:50%;background:#171717;display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;color:#FAFAF9;font-size:19px;">CA</div><span style="font-family:'Oswald',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:22px;">Carcassonne</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Carcassonne, France</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contact@geotechnique.vip">contact@geotechnique.vip</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Accueil</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Excavations souterraines</li></ol></nav>
-        <h1>Excavations souterraines à Carcassonne</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Accueil</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Exploration</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploration"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/essai-cpt/">Essai CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="labo-in-situ"><div class="cat-row"><a href="/labo-in-situ/" class="cat-name">Essais in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Essais in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densite-cone-sable/">Essai de densité sur site (méthode du cône de sable)</a></div></div><div class="cat-item" data-cat="laboratoire"><div class="cat-row"><a href="/laboratoire/" class="cat-name">Laboratoire</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratoire"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/granulometrie/">Analyse granulométrique (tamisage + hydromètre)</a></div></div><div class="cat-item" data-cat="fondations"><div class="cat-row"><a href="/fondations/" class="cat-name">Fondations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fondations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/pieux/">Conception de fondations sur pieux</a></div></div><div class="cat-item" data-cat="talus"><div class="cat-row"><a href="/talus/" class="cat-name">Pentes et murs</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Pentes et murs"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stabilite-talus/">Analyse de stabilité des pentes</a><a href="/ancrages/">Conception d'ancrages actifs/passifs</a><a href="/murs-soutenement/">Conception de murs de soutènement</a></div></div><div class="cat-item" data-cat="amelioration-sols"><div class="cat-row"><a href="/amelioration-sols/" class="cat-name">Amélioration</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Amélioration"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colonnes-ballastees/">Conception de colonnes ballastées (stone columns)</a><a href="/vibrocompactage/">Conception de vibrocompactage</a></div></div><div class="cat-item" data-cat="sismique"><div class="cat-row"><a href="/sismique/" class="cat-name">Sismique</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sismique"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefaction/">Analyse de liquéfaction des sols</a><a href="/isolation-sismique/">Conception d'isolation sismique à la base</a><a href="/microzonage-sismique/">Microzonage sismique</a></div></div><div class="cat-item" data-cat="geotechnique-routiere"><div class="cat-row"><a href="/geotechnique-routiere/" class="cat-name">Géotechnique routière</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Géotechnique routière"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/chaussee-rigide/">Conception de chaussées rigides</a><a href="/chaussee-souple/">Conception de chaussées souples</a><a href="/cbr-routier/">Étude CBR pour conception routière</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Excavations souterraines</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Excavations souterraines"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tunnels-sol-mou/">Analyse géotechnique pour tunnels en sols mous</a><a href="/excavations-profondes/">Conception géotechnique des excavations profondes</a><a href="/surveillance-excavations/">Surveillance géotechnique des excavations</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>À Carcassonne, les excavations souterraines exigent une maîtrise rigoureuse des contextes géologiques locaux, souvent marqués par des formations molassiques et des nappes perchées. Chaque projet doit intégrer les prescriptions de la norme NF P 94-500 pour les missions géotechniques, depuis l’identification des aléas jusqu’à la validation des soutènements. Nos interventions couvrent aussi bien l’<a href="/tunnels-sol-mou/">analyse géotechnique pour tunnels en sols mous</a> que la <a href="/excavations-profondes/">conception géotechnique des excavations profondes</a>, garantissant la stabilité en phases provisoire et définitive.</p>
-
-<p>Ces études sont essentielles pour les parkings souterrains, les réseaux d’assainissement ou les galeries techniques en centre urbain dense. La préservation du bâti ancien impose une <a href="/surveillance-excavations/">surveillance géotechnique des excavations</a> continue, avec auscultation des déplacements et des niveaux piézométriques. Cette approche intégrée sécurise l’ouvrage et son environnement immédiat, du diagnostic initial au suivi en exploitation.</p></section>
-
-            <blockquote style="border-left:4px solid #171717;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Le frottement latéral dans la molasse de Carcassonne dépasse rarement 150 kPa, sauf dans les bancs gréseux compacts.</blockquote>
-
-            
-
-            <section>
-                <h2>Caractéristiques du service à Carcassonne</h2>
-                <div>À 110 mètres d'altitude, Carcassonne s'étend sur la plaine alluviale de l'Aude et les coteaux molassiques. Cette dualité géologique impose des longueurs de scellement très variables : 4 à 6 mètres dans la molasse altérée du coteau, jusqu'à 10 mètres dans les graves sableuses près du fleuve. Nous forons à la tarière hélicoïdale en diamètre 150 mm minimum, avec tubage provisoire si le terrain s'éboule. Le scellement se fait au coulis de ciment CEM II 32.5, injecté sous faible pression pour les ancrages passifs, et sous pression contrôlée pour les actifs. La mise en tension suit la norme NF EN 1537, avec paliers de charge stabilisés pendant 15 minutes. Les travaux d'excavation en site sensible exigent une <a href="/surveillance-excavations/">surveillance d'excavations</a> continue, surtout quand la nappe phréatique remonte en période de crue de l'Aude. On combine souvent avec un <a href="/essai-cpt/">essai CPT</a> pour corréler la résistance de pointe au frottement latéral unitaire du scellement.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/anclajes-4.webp" alt="Conception d'ancrages actifs/passifs à Carcassonne" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Conception d'ancrages actifs/passifs à Carcassonne</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #171717;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#171717;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Paramètre</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valeur typique</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Diamètre de forage minimum</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">150 mm</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Type de scellement</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Coulis de ciment CEM II 32.5</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Pression d'injection (passif)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">< 0.5 MPa</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Pression d'injection (actif)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1.0 - 2.5 MPa</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norme de mise en tension</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">NF EN 1537</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Palier de stabilisation</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15 minutes par palier</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Longueur de scellement typique (molasse)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4 à 6 m</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Longueur de scellement typique (alluvions)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">8 à 10 m</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Défis techniques typiques à Carcassonne</h2>
-                <p>La molasse de Carcassonne présente un risque de décompression rapide lors du forage si des lentilles sableuses sont traversées. Ce phénomène provoque des éboulements dans le trou de forage avant la mise en place de l'armature. La parade consiste à tuber systématiquement les 3 premiers mètres. Autre point critique : la présence d'eau karstique dans les calcaires sous-jacents, qui peut diluer le coulis de scellement et réduire l'adhérence. On contrôle la viscosité du coulis toutes les 30 minutes avec le cône de Marsh. En zone urbaine dense, la proximité des réseaux enterrés (gaz, fibre, assainissement) exige une déclaration DT-DICT rigoureuse avant tout forage, sous peine d'endommager des infrastructures non cartographiées dans le centre ancien.</p>
-            </section>
-
-            
-    <section class="block mid-cta-99c2-99c2" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Besoin d'une évaluation géotechnique ?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Réponse sous 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnique.vip" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-mail: contact@geotechnique.vip</a></div>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Normes applicables:</strong> NF EN 1997-1 (Eurocode 7 - Calcul géotechnique), NF EN 1537 (Exécution des travaux géotechniques spéciaux - Tirants d'ancrage), NF P 94-153 (Essai statique de tirant d'ancrage), NF EN 206/CN (Béton - Spécification, performance, production et conformité)
-            </div>
-
-            <section>
-                <h2>Nos services</h2>
-                <p>Notre prestation couvre l'ensemble du processus, du dimensionnement à la réception :</p>
-                <style>.servicios-grid a.servicio-link:hover h3{color:#171717}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#171717;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover{border-color:#171717;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}</style><div class="servicios-grid"><div class="servicio"><h3>Dimensionnement géotechnique</h3><p>Calcul de la capacité portante du scellement selon la méthode de Bustamante & Doix, basée sur les essais pressiométriques. Détermination du nombre, de l'inclinaison et de la longueur des tirants.</p></div><div class="servicio"><h3>Essais de traction</h3><p>Réalisation d'essais de conformité sur un tirant sur dix, avec cycles de charge-décharge jusqu'à 1.30 fois la charge de service. Rapport avec courbes fluage-déplacement et capacité ultime.</p></div><div class="servicio"><h3>Suivi de mise en tension</h3><p>Contrôle de la force résiduelle au vérin calibré, blocage à la charge de blocage spécifiée. Vérification des pertes par relaxation après 72 heures.</p></div></div>
-            </section>
-
-            
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Services disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../tunnels-sol-mou/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Analyse géotechnique pour tunnels en sols mous</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../excavations-profondes/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Conception géotechnique des excavations profondes</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../surveillance-excavations/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Surveillance géotechnique des excavations</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
-    </div>
-</div>
-
-<footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><h4 style="color:#FFF;font-size:1rem;margin:0 0 .8rem">GÉOTECHNIQUE</h4><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Carcassonne, France</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">TALK TO US</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnique.vip" style="color:#FFF;text-decoration:none">contact@geotechnique.vip</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Géotechnique. Tous droits réservés.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Références:</strong> <a href="https://www.afnor.org/" rel="nofollow noopener" target="_blank">Normes AFNOR</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Géotechnique</a></div><div class="updated-info" data-updated="2026-04-08" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Dernière mise à jour: 2026-04-08</div></footer>
-
+<link rel="alternate" hreflang="fr-FR" href="https://carcassonne.geotechnique.vip/excavations/">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;align-items:center;gap:10px;"><div style="width:44px;height:44px;border-radius:50%;background:#171717;display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;color:#FAFAF9;font-size:19px;">CA</div><span style="font-family:'Oswald',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:22px;">Carcassonne</span></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Carcassonne, France</div></div><div class="header-contact"><a href="mailto:contact@geotechnique.vip">contact@geotechnique.vip</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Accueil</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Excavations</li></ol></nav><h1>Excavations à Carcassonne</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Accueil</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Exploration</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploration"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/essai-cpt/">Essai CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="labo-in-situ"><div class="cat-row"><a href="/labo-in-situ/" class="cat-name">Essais in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Essais in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densite-cone-sable/">Essai de densité sur site (méthode du cône de sable)</a></div></div><div class="cat-item" data-cat="laboratoire"><div class="cat-row"><a href="/laboratoire/" class="cat-name">Laboratoire</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratoire"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/granulometrie/">Analyse granulométrique (tamisage + hydromètre)</a></div></div><div class="cat-item" data-cat="fondations"><div class="cat-row"><a href="/fondations/" class="cat-name">Fondations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fondations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/pieux/">Conception de fondations sur pieux</a></div></div><div class="cat-item" data-cat="talus"><div class="cat-row"><a href="/talus/" class="cat-name">Pentes et murs</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Pentes et murs"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stabilite-talus/">Analyse de stabilité des pentes</a><a href="/ancrages/">Conception d'ancrages actifs/passifs</a><a href="/murs-soutenement/">Conception de murs de soutènement</a></div></div><div class="cat-item" data-cat="amelioration-sols"><div class="cat-row"><a href="/amelioration-sols/" class="cat-name">Amélioration</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Amélioration"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colonnes-ballastees/">Conception de colonnes ballastées (stone columns)</a><a href="/vibrocompactage/">Conception de vibrocompactage</a></div></div><div class="cat-item" data-cat="sismique"><div class="cat-row"><a href="/sismique/" class="cat-name">Sismique</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sismique"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefaction/">Analyse de liquéfaction des sols</a><a href="/isolation-sismique/">Conception d'isolation sismique à la base</a><a href="/microzonage-sismique/">Microzonage sismique</a></div></div><div class="cat-item" data-cat="geotechnique-routiere"><div class="cat-row"><a href="/geotechnique-routiere/" class="cat-name">Routier</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Routier"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/chaussee-rigide/">Conception de chaussées rigides</a><a href="/chaussee-souple/">Conception de chaussées souples</a><a href="/cbr-routier/">Étude CBR pour conception routière</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tunnels-sol-mou/">Analyse géotechnique pour tunnels en sols mous</a><a href="/excavations-profondes/">Conception géotechnique des excavations profondes</a><a href="/surveillance-excavations/">Surveillance géotechnique des excavations</a></div></div></nav></aside><main><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">La catégorie <strong>Excavations</strong> regroupe l'ensemble des études, conceptions et suivis géotechniques nécessaires à la réalisation de fouilles et de creusements dans le sous-sol de Carcassonne et sa région. Qu'il s'agisse de fondations profondes, de tranchées pour réseaux ou de tunnels, chaque projet d'excavation modifie l'équilibre naturel du terrain et peut impacter les ouvrages avoisinants, parfois historiques. Maîtriser ces interactions est un enjeu majeur dans une ville au patrimoine aussi dense et sensible que la Cité médiévale.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Le contexte géologique carcassonnais est marqué par une grande diversité : molasses tertiaires du bassin d'Aquitaine, alternances de marnes et calcaires lacustres, et surtout des formations superficielles souvent hétérogènes. La présence d'une nappe phréatique peu profonde dans la plaine de l'Aude ajoute une complexité hydrogéologique significative. Ces conditions locales exigent une reconnaissance approfondie, car elles conditionnent directement les techniques d'excavation et de soutènement à mettre en œuvre pour garantir la stabilité des parois et la sécurité des travailleurs comme des riverains.</p></div></section><section class="block" style="padding:1.5rem"><div style="max-width:1100px;margin:0 auto"><img src="/img/tuneles-suelo-blando-1.webp" alt="Excavations à Carcassonne" loading="eager" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0" fetchpriority="high"></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">En France, les travaux d'excavation sont encadrés par un corpus normatif rigoureux, dont la norme <strong>NF P 94-210</strong> sur le renforcement des sols par inclusions, les normes <strong>NF P 94-261 et 94-262</strong> pour les fondations profondes, et l'<strong>Eurocode 7</strong> (NF EN 1997) qui régit le calcul géotechnique. La loi MOP et le décret n° 99-443 imposent des missions géotechniques normalisées (étapes G1 à G4) qui structurent toute la chaîne, de l'étude préalable au suivi d'exécution. Le respect de ces missions est indispensable pour sécuriser le projet vis-à-vis des risques naturels et contractuels.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Les projets concernés sont multiples. En milieu urbain dense, la <a href='/excavations-profondes/'>conception géotechnique des excavations profondes</a> est cruciale pour les parkings souterrains ou les immeubles avec plusieurs niveaux de sous-sol. La réalisation de galeries techniques ou de passages inférieurs nécessite une <a href='/tunnels-sol-mou/'>analyse géotechnique spécifique pour tunnels en sols mous</a>, surtout dans les zones alluvionnaires en bord d'Aude. Enfin, quel que soit le type d'ouvrage, la <a href='/surveillance-excavations/'>surveillance géotechnique des excavations</a> est le garant ultime de la sécurité, permettant de détecter toute déformation imprévue et d'adapter les méthodes en temps réel. Une approche intégrée, de l'étude à l'instrumentation, est le seul gage de réussite pour un projet d'excavation en contexte sensible.</p></div></section><section class="block mid-cta-99c2-99c2" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Besoin d'une évaluation géotechnique ?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Réponse sous 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnique.vip" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-mail: contact@geotechnique.vip</a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Services disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../tunnels-sol-mou/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Analyse géotechnique pour tunnels en sols mous</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../excavations-profondes/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Conception géotechnique des excavations profondes</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../surveillance-excavations/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Surveillance géotechnique des excavations</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:900px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Questions et réponses</h2><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Quelles sont les principales étapes réglementaires pour un projet d'excavation en France ?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">La réglementation française impose une succession de missions géotechniques normalisées selon la norme NF P 94-500. On distingue l'étude préalable (G1), l'étude de projet (G2), l'assistance aux contrats de travaux (G3) et le suivi d'exécution (G4). Chaque étape valide les hypothèses et sécurise le projet, de la conception au chantier, en conformité avec l'Eurocode 7.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Pourquoi la géologie de Carcassonne est-elle un facteur clé dans la conception des excavations ?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Le sous-sol de Carcassonne alterne molasses, marnes et alluvions, avec une nappe phréatique souvent proche de la surface dans la vallée de l'Aude. Cette hétérogénéité et la présence d'eau imposent des reconnaissances précises pour anticiper les instabilités, les venues d'eau et choisir les techniques de soutènement et de drainage les mieux adaptées à chaque zone.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Quels sont les risques majeurs à maîtriser lors d'une excavation profonde en zone urbaine ?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">En zone urbaine comme le centre de Carcassonne, les risques principaux sont l'instabilité des parois de fouille, les tassements différentiels induits sur les bâtiments mitoyens, souvent anciens, et les dégâts aux réseaux enterrés. Une modélisation précise et une surveillance par auscultation topographique et inclinométrique sont indispensables pour prévenir tout désordre.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Quand une surveillance géotechnique est-elle obligatoire durant les travaux d'excavation ?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">La surveillance géotechnique est obligatoire dès que le projet présente des risques pour les personnes ou les biens, ce qui est quasi-systématique en site urbain ou pour des excavations de grande hauteur. Elle est intégrée à la mission G4 de suivi d'exécution et permet de vérifier en continu le comportement du terrain et des ouvrages de soutènement pour alerter en cas d'anomalie.</p></details></div></section></main></div></div><section class="block map-block" style="padding:2rem 1.5rem;background:#f5f5f5">
+<div style="max-width:1200px;margin:0 auto">
+<h2 style="text-align:center;margin-bottom:.5rem;font-weight:700">Emplacement et zone de service</h2>
+<p style="text-align:center;color:#555;margin-bottom:1.5rem">Nous desservons des projets à Coverage area — Carcassonne et ses environs.</p>
+<div class="map-wrap"><div id="map_8da36c" style="height:380px;width:100%;border-radius:8px;overflow:hidden"></div></div>
 <script>
+(function(){if(typeof L==="undefined"||!L.Icon)return;var m=L.map("map_8da36c",{zoomControl:true,attributionControl:true}).setView([43.2130358,2.3491069],12);L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{attribution:"&copy; OpenStreetMap contributeurs &copy; CARTO",maxZoom:19,subdomains:"abcd"}).addTo(m);L.marker([43.2130358,2.3491069],{icon:L.icon({iconUrl:"/css/images/marker-icon.png",iconRetinaUrl:"/css/images/marker-icon-2x.png",shadowUrl:"/css/images/marker-shadow.png",iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]})}).addTo(m).bindPopup("Coverage area — Carcassonne");})();
+</script>
+</div>
+</section>
+
+<footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><h4 style="color:#FFF;font-size:1rem;margin:0 0 .8rem">GÉOTECHNIQUE</h4><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Carcassonne, France</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">TALK TO US</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnique.vip" style="color:#FFF;text-decoration:none">contact@geotechnique.vip</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Géotechnique. Tous droits réservés.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Références:</strong><a href="https://www.afnor.org/" rel="nofollow noopener" target="_blank">Normes AFNOR</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Géotechnique</a></div><div class="updated-info" data-updated="2026-04-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Dernière mise à jour: 2026-04-14</div></footer><script>
 // Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
 document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest('.cat-item');
-    if (!item) return;
-    var sub = item.querySelector('.cat-sub');
-    if (!sub) return;
-    var open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
-    if (open) {
-        sub.setAttribute('hidden', '');
-    } else {
-        sub.removeAttribute('hidden');
-    }
+var btn = e.target.closest('.cat-toggle');
+if (!btn) return;
+e.preventDefault();
+var item = btn.closest('.cat-item');
+if (!item) return;
+var sub = item.querySelector('.cat-sub');
+if (!sub) return;
+var open = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+if (open) {
+sub.setAttribute('hidden', '');
+} else {
+sub.removeAttribute('hidden');
+}
 });
-</script>
-</body>
-</html>
+</script></body></html>
